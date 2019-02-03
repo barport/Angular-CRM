@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
-import { Customer } from '../../models/customer'
+import { Customer } from '../../models/customer';
+import { CustomersService } from '../../services/customers.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-add-customer',
@@ -20,7 +22,12 @@ export class AddCustomerComponent implements OnInit {
   notes: string = '';
 
 
-  constructor(private _title: Title) { }
+  constructor(
+    private _title: Title,
+    private _customersService: CustomersService,
+    private _router: Router
+
+  ) { }
 
 
   ngOnInit(): void {
