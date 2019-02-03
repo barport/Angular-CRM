@@ -1,1 +1,19 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.bg-title {
+background-color: #4E4561 !important; 
+}
+.bg-thead {
+  background-color: #261B3B !important;
+}
+.bg-sidenav {
+  background-color: #30293E !important;
+}
+.bg-topnav {
+  background-color: #888096 !important;
+}
+.bg-company {
+  background-color: #30293E !important;
+}

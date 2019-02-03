@@ -1,0 +1,9 @@
+a:link{
+  background-color: magenta;
+  color: white;
+}
+
+a:hover {
+  background-color:silver;
+  color: black;
+}
