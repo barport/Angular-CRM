@@ -7,9 +7,9 @@ import { ContactsComponent } from '../components/contacts/contacts.component';
 import { PageNotFoundComponent } from '../components/page-not-found/page-not-found.component';
 
 const appRoutes: Routes = [
-  { path: '', redirectTo: 'costumers', pathMatch: 'full' },
+  { path: '', redirectTo: 'customers', pathMatch: 'full' },
   { path: 'customers', component: CustomersComponent },
-  { path: 'add-customer', component: AddCustomerComponent },
+  { path: 'customers/add-customer', component: AddCustomerComponent },
   { path: 'contacts', component: ContactsComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
